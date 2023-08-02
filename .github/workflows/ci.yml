@@ -28,7 +28,7 @@ jobs:
       # - name: Test (Jest)
       #   env: 
       #     CI: true
-      #   run: npm run build
+      #   run: npm run build 
       
       - name: "npm run build"
         run: "npm run build --prefix ./codebase/rdicidr-0.1.0"
