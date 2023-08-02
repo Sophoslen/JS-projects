@@ -17,7 +17,7 @@ jobs:
           node-version: "15.14.0"
 
       - name: install dependencies
-        run: npm i --prefix ./codebase/rdicidr-0.1.0
+        run: npm i --prefix ./codebase/rdicidr-0.1.0 
 
       - name: Linter(ESLint)
         run: npm run lint --prefix ./codebase/rdicidr-0.1.0
